@@ -1,0 +1,45 @@
+body {
+  font-family: 'Slabo 27px', sans-serif;
+  padding-top:50px;
+  font-size: 18pt;
+  background-image: url(http://eskipaper.com/images/forest-background-5.jpg);
+}
+.content{
+  background-color:  #006666;
+  opacity: 0.9;
+    filter: Alpha(opacity=90); /* IE8 and earlier */
+}
+.about {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+   padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+ }
+.portfolio {
+  color: #999999;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.imgLabel{
+  font-size: 14pt;
+  margin:0px 10px 10px 10px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+.imgLabel a:hover{
+  text-decoration:none !important;
+  color: blue;
+}
+
+#contact{
+  color: #999999;
+  text-align: center;
+}
+#contact a:hover{
+  color: white;
+}
+
+
+
