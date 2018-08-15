@@ -1,13 +1,11 @@
 body {
   font-family: 'Slabo 27px', sans-serif;
   padding-top:50px;
-  font-size: 18pt;
-  background-image: url(http://eskipaper.com/images/forest-background-5.jpg);
+  font-size: 16pt;
 }
 .content{
-  background-color:  #006666;
-  opacity: 0.9;
-    filter: Alpha(opacity=90); /* IE8 and earlier */
+  background-color:  #999999;
+
 }
 .about {
   font-family: 'Roboto', sans-serif;
@@ -17,7 +15,7 @@ body {
   padding-right: 100px;
  }
 .portfolio {
-  color: #999999;
+  color: #030303;
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
@@ -33,8 +31,16 @@ body {
   color: blue;
 }
 
+.thumb {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    height: 180px;
+    width: 100%;
+}
+
 #contact{
-  color: #999999;
+  color: white;
   text-align: center;
 }
 #contact a:hover{
